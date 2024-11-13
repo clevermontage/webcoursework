@@ -1,0 +1,168 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1818;
+    color: #fff;
+}
+
+
+.links{
+    display: flex; 
+    margin: auto; 
+    background-color: rgb(97, 5, 5);
+    color: rgb(206, 200, 200);
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.logo span {
+    color: #f60;
+}
+
+.list{
+    display: flex;
+    margin-right: 50%;
+}
+.list>li{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.list>li>a:hover{
+    color:white ;
+}
+.list>li>a{
+    color: rgb(206, 200, 200);;
+    text-decoration: none;
+}
+
+
+.auth-buttons {
+    display: flex;
+    gap: 1px;
+    height: 50px;
+    width:250px ;
+}
+.auth-buttons button {
+    background-color: rgb(206, 86, 6);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: -180px;
+    border-radius: 200px;
+    height: 40px;
+    width:100px ;
+    margin-top: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.join-now:hover{
+    background-color: #302929;
+}
+
+.hr{
+    color: #f60;
+    height: 3px;
+    margin-top:-2px ;
+    background-color: #f60;
+    border: #f60;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+
+
+.login-container {
+    background-color:#1a1818;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login-container label {
+    margin-bottom: 5px;
+}
+.login-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.sign{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options label {
+    display: flex;
+    align-items: center;
+}
+.options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+.forgot-password {
+    color: #f60;
+    text-decoration: none;
+}
+.forgot-password:hover{
+    color:rgb(206, 86, 6);
+}
+
+
+.continue {
+    background-color: rgb(206, 86, 6);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.continue:hover{
+    background-color: #f60;
+}
+
+i{
+    margin-left: 160%;
+    margin-top: 10px;
+}
+i:hover{
+    color: #fff;
+}
+
+
+
